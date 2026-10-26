@@ -1,1 +1,9 @@
-# atelier-studio
+# Atelier
+
+Personal studio site for Tim Zou: custom artworks and home and public decorations made by color 3D printing and laser micro-engraving.
+
+Published with GitHub Pages from the `main` branch, repository root:
+
+https://zouting1973-sg.github.io/atelier-studio/
+
+This atelier is separate from Open Digital Life Lab. There is no custom domain.
