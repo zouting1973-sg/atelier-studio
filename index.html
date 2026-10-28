@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atelier · Color 3D Print &amp; Laser Micro-Engraving</title>
-  <meta name="description" content="Tim Zou atelier, a personal studio for custom artworks and home and public decorations made by color 3D printing and laser micro-engraving.">
+  <meta name="description" content="Tim Zou atelier: custom full-color 3D printed keychains, figurines and ornaments, and laser micro-engraved metal tags and photo plates. Prices in USD, payment by PayPal, international shipping.">
   <link rel="canonical" href="https://zouting1973-sg.github.io/atelier-studio/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23e6e1d8' width='32' height='32'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23b7a394'/%3E%3C/svg%3E">
   <style>
@@ -172,6 +172,19 @@
 
     footer p { margin: 0 0 0.35rem; }
 
+    .note { color: var(--muted); font-size: 0.92rem; }
+
+    .products li { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1rem; align-items: baseline; }
+    .products .name { font-weight: 600; }
+    .products .price { font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size: 1.15rem; white-space: nowrap; }
+    .products .spec { grid-column: 1 / -1; color: var(--muted); font-size: 0.92rem; }
+
+    ol { margin: 0 0 1rem; padding-left: 1.3rem; }
+    ol li { border: 0; padding: 0.25rem 0; }
+    ol li:last-child { border: 0; }
+
+    h3 { margin: 1.5rem 0 0.4rem; font-size: 1.05rem; font-weight: 600; }
+
     @media (max-width: 380px) {
       .mail { font-size: 0.98rem; word-break: break-all; }
     }
@@ -189,35 +202,75 @@
       <p class="intro">A personal studio for custom artworks and for decorations in the home and in public places. Pieces are made by color 3D printing and by laser micro-engraving, for clients who value emotional and aesthetic comfort.</p>
       <nav aria-label="On this page">
         <a href="#make">What we make</a>
-        <a href="#reach">How to reach</a>
+        <a href="#products">Products &amp; prices</a>
+        <a href="#order">Order &amp; payment</a>
+        <a href="#reach">Contact</a>
       </nav>
     </header>
 
     <section id="make" aria-labelledby="make-title">
       <h2 id="make-title">What we make</h2>
-      <p>Work is made to order, around a place and the feeling it should hold. This page is an introduction. It is not a catalogue, and it does not show prices or product photographs.</p>
+      <p>Every piece is made to order. Color 3D printing gives a piece its form and its full color. Laser micro-engraving leaves a fine, permanent mark on metal. The atelier sells finished, personalised goods made with both methods:</p>
       <ul>
-        <li>Custom artworks</li>
-        <li>Decorations for the home</li>
-        <li>Decorations for public places</li>
+        <li>Full-color 3D printed keychains, figurines and desk ornaments</li>
+        <li>Laser micro-engraved metal tags and photo plates</li>
+        <li>Combination pieces that join a color print with an engraved plate</li>
       </ul>
-      <p>Color 3D printing gives a piece its form and its color. Laser micro-engraving leaves a fine, precise mark. Each is used when it serves the work.</p>
     </section>
 
-    <section id="support" aria-labelledby="support-title">
-      <h2 id="support-title">A note on support</h2>
-      <p>Friends of the studio sometimes offer voluntary support. That support helps fund a computer upgrade, together with a color 3D printer and laser micro-engraving equipment.</p>
-      <p>Sponsorship is a gift toward those tools. It is not an investment, and it does not purchase equity, a return, or a claim on future work.</p>
+    <section id="products" aria-labelledby="products-title">
+      <h2 id="products-title">Products &amp; prices</h2>
+      <p>Prices are in US dollars (USD) per piece and include one digital proof for your approval before production. Shipping is quoted separately (see below).</p>
+      <ul class="products">
+        <li><span class="name">Full-color 3D printed keychain</span><span class="price">US$18</span>
+          <span class="spec">Your name, logo or simple artwork in full color · about 50 mm · color resin with metal key ring · ready in 5–7 business days</span></li>
+        <li><span class="name">Mini figurine, full color</span><span class="price">US$55</span>
+          <span class="spec">Person, pet or character from your photos or 3D file · 60 mm tall · full-color resin on a small base · ready in 10–14 business days</span></li>
+        <li><span class="name">Display figurine, full color</span><span class="price">US$95</span>
+          <span class="spec">Person, pet or character from your photos or 3D file · 100 mm tall · full-color resin on a base · ready in 10–14 business days</span></li>
+        <li><span class="name">Desk ornament, full color</span><span class="price">US$65</span>
+          <span class="spec">Custom name block, emblem or small sculpture for a desk or shelf · up to 120 mm · full-color resin · ready in 7–10 business days</span></li>
+        <li><span class="name">Laser-engraved name tag</span><span class="price">US$15</span>
+          <span class="spec">Name or text, up to 4 lines, one side · 50 × 28 mm stainless steel tag with ring or chain · ready in 3–5 business days</span></li>
+        <li><span class="name">Laser photo engraving plate</span><span class="price">US$45</span>
+          <span class="spec">Your photo micro-engraved in fine detail · 100 × 150 mm black anodised aluminium with desk stand · ready in 5–7 business days</span></li>
+        <li><span class="name">Gift set: keychain + engraved tag</span><span class="price">US$29</span>
+          <span class="spec">One full-color 3D printed keychain and one laser-engraved stainless steel tag, gift boxed · ready in 7 business days</span></li>
+        <li><span class="name">Keepsake combo: figurine + engraved plaque</span><span class="price">US$85</span>
+          <span class="spec">60 mm full-color figurine mounted on a base with a laser-engraved metal name plaque · ready in 14 business days</span></li>
+      </ul>
+      <p class="note">Larger sizes, quantities of 10 or more, and decorations for homes or public spaces are quoted individually by email.</p>
+    </section>
+
+    <section id="order" aria-labelledby="order-title">
+      <h2 id="order-title">Order &amp; payment</h2>
+      <h3>How to order</h3>
+      <ol>
+        <li>Email <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a> with the item name, quantity, your text or photos, and your shipping country.</li>
+        <li>You receive a written quote with the item price, shipping cost and lead time.</li>
+        <li>Pay the quote by PayPal (or through the Ko-fi shop). Production starts after payment.</li>
+        <li>You approve a digital proof, then the piece is made and shipped with tracking.</li>
+      </ol>
+      <h3>Payment</h3>
+      <p><strong>PayPal:</strong> after you confirm the quote, a PayPal invoice in USD is sent to your email. You can pay with your PayPal balance or a card through PayPal. PayPal buyer protection applies.</p>
+      <p><strong>Ko-fi shop:</strong> listed items can also be bought at <a href="https://ko-fi.com/timzouatelier/shop">ko-fi.com/timzouatelier/shop</a>.</p>
+      <h3>Shipping</h3>
+      <p>Ships internationally by tracked post or courier. Shipping cost depends on destination and parcel size and is quoted with each order before payment. Typical transit is 7–20 business days after dispatch. Import duties or taxes, if any, are paid by the buyer.</p>
+      <h3>Lead time</h3>
+      <p>Lead times above start after payment and proof approval. Bulk or large pieces are scheduled at quote time.</p>
+      <h3>Refunds &amp; returns</h3>
+      <p>Pieces are personalised and made to order, so they cannot be returned for change of mind once the proof is approved. You get a full refund if you cancel before approving the proof. If a piece arrives damaged, defective or different from the approved proof, email a photo within 14 days of delivery and it will be remade or refunded in full. Refunds are paid back through the original payment method. See the <a href="terms.html">Terms of sale</a>.</p>
     </section>
 
     <section id="reach" aria-labelledby="reach-title">
-      <h2 id="reach-title">How to reach</h2>
-      <p>For a commission, a question, or a note of support, write by email.</p>
+      <h2 id="reach-title">Contact</h2>
+      <p>For orders, quotes and questions, write by email. Replies within 2 business days.</p>
       <a class="mail" href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a>
     </section>
 
     <footer>
-      <p>Personal atelier of Ting Zou.</p>
+      <p>Personal atelier of Ting Zou · <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a></p>
+      <p><a href="terms.html">Terms of sale</a> · <a href="privacy.html">Privacy</a></p>
       <p>Separate from Open Digital Life Lab.</p>
     </footer>
   </article>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy · Atelier</title>
+  <meta name="description" content="Privacy notice for Tim Zou Atelier.">
+  <link rel="canonical" href="https://zouting1973-sg.github.io/atelier-studio/privacy.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23e6e1d8' width='32' height='32'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23b7a394'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --wall: #e6e1d8;
+      --paper: #f7f4ef;
+      --ink: #2c2926;
+      --muted: #5c564f;
+      --line: #ddd6cc;
+      --sage: #8f9d94;
+      --clay: #c4b1a4;
+      --mist: #b7c3c6;
+      --focus: #6d6258;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: light; }
+
+    body {
+      margin: 0;
+      background: var(--wall);
+      color: var(--ink);
+      font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      padding: clamp(1.25rem, 4vw, 3.5rem) clamp(1rem, 3vw, 1.5rem) 4.5rem;
+    }
+
+    .page {
+      max-width: 40rem;
+      margin: 0 auto;
+      background: var(--paper);
+      padding: clamp(1.75rem, 5vw, 3.25rem) clamp(1.35rem, 4.5vw, 2.85rem) clamp(2rem, 4vw, 2.75rem);
+    }
+
+    .skip {
+      position: absolute;
+      left: 0.75rem;
+      top: 0.75rem;
+      padding: 0.4rem 0.7rem;
+      background: var(--paper);
+      color: var(--ink);
+      transform: translateY(-150%);
+    }
+
+    .skip:focus { transform: none; }
+
+    .mark {
+      margin: 0;
+      font-family: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+      font-size: clamp(1.85rem, 4vw, 2.35rem);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .studio {
+      margin: 0.4rem 0 0;
+      color: var(--muted);
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .swatch {
+      display: flex;
+      gap: 0.45rem;
+      margin: 1.75rem 0 2.25rem;
+    }
+
+    .swatch span {
+      display: block;
+      width: 2.25rem;
+      height: 0.45rem;
+    }
+
+    .swatch span:nth-child(1) { background: var(--sage); }
+    .swatch span:nth-child(2) { background: var(--clay); }
+    .swatch span:nth-child(3) { background: var(--mist); }
+
+    h1 {
+      margin: 0;
+      font-family: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+      font-size: clamp(2.6rem, 8vw, 4.15rem);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      line-height: 0.95;
+    }
+
+    .lede {
+      margin: 0.85rem 0 0;
+      max-width: 22rem;
+      color: var(--muted);
+      font-family: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+      font-size: clamp(1.2rem, 2.4vw, 1.4rem);
+      line-height: 1.35;
+    }
+
+    .intro {
+      margin: 1.5rem 0 0;
+      max-width: 36rem;
+    }
+
+    nav {
+      margin: 1.75rem 0 0;
+      font-size: 0.92rem;
+    }
+
+    nav a { margin-right: 1.1rem; }
+
+    section { margin-top: 2.75rem; }
+
+    h2 {
+      margin: 0 0 0.85rem;
+      font-family: Palatino, "Palatino Linotype", "Iowan Old Style", Georgia, serif;
+      font-size: 1.55rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    p { margin: 0 0 1rem; }
+
+    ul {
+      margin: 0 0 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      padding: 0.7rem 0;
+      border-top: 1px solid var(--line);
+    }
+
+    li:last-child { border-bottom: 1px solid var(--line); }
+
+    a {
+      color: var(--ink);
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover { color: var(--focus); }
+
+    a:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 3px;
+    }
+
+    .mail {
+      display: inline-block;
+      margin-top: 0.25rem;
+      padding: 0.85rem 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.01em;
+      text-decoration-thickness: 1px;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    footer p { margin: 0 0 0.35rem; }
+
+    .note { color: var(--muted); font-size: 0.92rem; }
+
+    .products li { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1rem; align-items: baseline; }
+    .products .name { font-weight: 600; }
+    .products .price { font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size: 1.15rem; white-space: nowrap; }
+    .products .spec { grid-column: 1 / -1; color: var(--muted); font-size: 0.92rem; }
+
+    ol { margin: 0 0 1rem; padding-left: 1.3rem; }
+    ol li { border: 0; padding: 0.25rem 0; }
+    ol li:last-child { border: 0; }
+
+    h3 { margin: 1.5rem 0 0.4rem; font-size: 1.05rem; font-weight: 600; }
+
+    @media (max-width: 380px) {
+      .mail { font-size: 0.98rem; word-break: break-all; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <article class="page" id="content">
+    <header>
+      <p class="mark"><a href="./" style="text-decoration:none">Tim Zou</a></p>
+      <p class="studio">Atelier · personal studio</p>
+      <div class="swatch" aria-hidden="true"><span></span><span></span><span></span></div>
+      <h1 style="font-size:clamp(2rem,6vw,3rem)">Privacy</h1>
+      <p class="note">Last updated: October 2026</p>
+    </header>
+    <section>
+      <h2>What is collected</h2>
+      <p>To make and ship an order, the Atelier collects only what you send: your name, email address, shipping address, phone number for the courier, and the photos, text or files for your piece. Payment is handled by PayPal or Ko-fi; card and account details are never seen or stored by the Atelier.</p>
+      <h2>How it is used</h2>
+      <p>Your information is used only to quote, make, ship and support your order. It is shared only with the payment provider and the shipping carrier as needed to complete the order. It is never sold.</p>
+      <h2>Your photos</h2>
+      <p>Photos and files are used only for your piece and are not published without your written permission. They are deleted within 90 days after delivery unless you ask for them to be kept for re-orders.</p>
+      <h2>This website</h2>
+      <p>This site is a static page hosted on GitHub Pages. It uses no cookies, analytics or tracking scripts of its own. GitHub may log basic technical data such as IP addresses for security.</p>
+      <h2>Your choices</h2>
+      <p>Email <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a> to see, correct or delete the information held about you.</p>
+    </section>
+
+    <footer>
+      <p>Personal atelier of Ting Zou · <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a></p>
+      <p><a href="./">Home</a> · <a href="terms.html">Terms of sale</a> · <a href="privacy.html">Privacy</a></p>
+    </footer>
+  </article>
+</body>
+</html>
