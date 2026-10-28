@@ -6,4 +6,10 @@ Published with GitHub Pages from the `main` branch, repository root:
 
 https://zouting1973-sg.github.io/atelier-studio/
 
-This atelier is separate from Open Digital Life Lab. There is no custom domain.
+There is no custom domain.
+
+Pages:
+
+- `index.html` — about, products & USD prices, order & payment (PayPal invoice in USD), shipping, refunds, contact
+- `terms.html` — terms of sale
+- `privacy.html` — privacy notice
