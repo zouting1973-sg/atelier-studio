@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atelier · Color 3D Print &amp; Laser Micro-Engraving</title>
-  <meta name="description" content="Tim Zou atelier: custom full-color 3D printed keychains, figurines and ornaments, and laser micro-engraved metal tags and photo plates. Prices in USD, payment by PayPal, international shipping.">
+  <meta name="description" content="Tim Zou atelier: custom full-color 3D printed keychains, figurines and ornaments, and laser micro-engraved metal tags and photo plates. Prices in USD. Buy Now with PayPal.">
   <link rel="canonical" href="https://zouting1973-sg.github.io/atelier-studio/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%23e6e1d8' width='32' height='32'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23b7a394'/%3E%3C/svg%3E">
   <style>
@@ -18,6 +18,7 @@
       --clay: #c4b1a4;
       --mist: #b7c3c6;
       --focus: #6d6258;
+      --paypal: #ffc439;
     }
 
     * { box-sizing: border-box; }
@@ -174,16 +175,41 @@
 
     .note { color: var(--muted); font-size: 0.92rem; }
 
-    .products li { display: grid; grid-template-columns: 1fr auto; gap: 0.2rem 1rem; align-items: baseline; }
+    .products li {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.2rem 1rem;
+      align-items: baseline;
+      padding: 1rem 0;
+    }
     .products .name { font-weight: 600; }
     .products .price { font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size: 1.15rem; white-space: nowrap; }
-    .products .spec { grid-column: 1 / -1; color: var(--muted); font-size: 0.92rem; }
+    .products .spec { grid-column: 1 / -1; color: var(--muted); font-size: 0.92rem; margin-top: 0.15rem; }
+    .products .code { grid-column: 1 / -1; color: var(--muted); font-size: 0.82rem; margin-top: 0.15rem; }
+    .products .buy-row { grid-column: 1 / -1; margin-top: 0.55rem; }
+
+    .btn-paypal {
+      display: inline-block;
+      background: var(--paypal);
+      color: #111;
+      font-weight: 650;
+      font-size: 0.92rem;
+      text-decoration: none;
+      padding: 0.55rem 0.95rem;
+      border-radius: 0.35rem;
+      border: 1px solid #e6b800;
+      letter-spacing: 0.01em;
+    }
+    .btn-paypal:hover { filter: brightness(1.05); color: #111; text-decoration: none; }
 
     ol { margin: 0 0 1rem; padding-left: 1.3rem; }
     ol li { border: 0; padding: 0.25rem 0; }
     ol li:last-child { border: 0; }
 
     h3 { margin: 1.5rem 0 0.4rem; font-size: 1.05rem; font-weight: 600; }
+
+    .zh li { border: 0; padding: 0.2rem 0; }
+    .zh li:last-child { border: 0; }
 
     @media (max-width: 380px) {
       .mail { font-size: 0.98rem; word-break: break-all; }
@@ -199,12 +225,15 @@
       <div class="swatch" aria-hidden="true"><span></span><span></span><span></span></div>
       <h1>Atelier</h1>
       <p class="lede">Color 3D print &amp; laser micro-engraving</p>
-      <p class="intro">A personal studio for custom artworks and for decorations in the home and in public places. Pieces are made by color 3D printing and by laser micro-engraving, for clients who value emotional and aesthetic comfort.</p>
+      <p class="intro">A personal studio for custom artworks and for decorations in the home and in public places. Pieces are made by color 3D printing and by laser micro-engraving, for clients who value emotional and aesthetic comfort. Prices are in USD. Pay with PayPal via Buy Now.</p>
       <nav aria-label="On this page">
         <a href="#make">What we make</a>
         <a href="#products">Products &amp; prices</a>
-        <a href="#order">Order &amp; payment</a>
+        <a href="#how-to-buy">How to buy</a>
+        <a href="#delivery">Delivery</a>
+        <a href="#refunds">Refunds</a>
         <a href="#reach">Contact</a>
+        <a href="#zh">中文</a>
       </nav>
     </header>
 
@@ -220,56 +249,128 @@
 
     <section id="products" aria-labelledby="products-title">
       <h2 id="products-title">Products &amp; prices</h2>
-      <p>Prices are in US dollars (USD) per piece and include one digital proof for your approval before production. Shipping is quoted separately (see below).</p>
+      <p>Prices are in US dollars (USD) per piece and include one digital proof for your approval before production. <strong>Listed price is the product price only.</strong> After you pay with Buy Now, email your text/photos and shipping country; we reply with a shipping quote (PayPal or invoice) before the piece ships. Not a tip or donation — these are made-to-order goods.</p>
       <ul class="products">
-        <li><span class="name">Full-color 3D printed keychain</span><span class="price">US$18</span>
-          <span class="spec">Your name, logo or simple artwork in full color · about 50 mm · full-color resin or multi-color PLA, with metal key ring · ready in 5–7 business days</span></li>
-        <li><span class="name">Mini figurine, full color</span><span class="price">US$55</span>
-          <span class="spec">Person, pet or character from your photos or 3D file · 60 mm tall · full-color resin or multi-color PLA on a small base · ready in 10–14 business days</span></li>
-        <li><span class="name">Display figurine, full color</span><span class="price">US$95</span>
-          <span class="spec">Person, pet or character from your photos or 3D file · 100 mm tall · full-color resin or multi-color PLA on a base · ready in 10–14 business days</span></li>
-        <li><span class="name">Desk ornament, full color</span><span class="price">US$65</span>
-          <span class="spec">Custom name block, emblem or small sculpture for a desk or shelf · up to 120 mm · full-color resin or multi-color PLA · ready in 7–10 business days</span></li>
-        <li><span class="name">Laser-engraved name tag</span><span class="price">US$15</span>
-          <span class="spec">Name or text, up to 4 lines, one side · 50 × 28 mm stainless steel tag with ring or chain · ready in 3–5 business days</span></li>
-        <li><span class="name">Laser photo engraving plate</span><span class="price">US$45</span>
-          <span class="spec">Your photo micro-engraved in fine detail · 100 × 150 mm black anodised aluminium with desk stand · ready in 5–7 business days</span></li>
-        <li><span class="name">Gift set: keychain + engraved tag</span><span class="price">US$29</span>
-          <span class="spec">One full-color 3D printed keychain (resin or multi-color PLA) and one laser-engraved stainless steel tag, gift boxed · ready in 7 business days</span></li>
-        <li><span class="name">Keepsake combo: figurine + engraved plaque</span><span class="price">US$85</span>
-          <span class="spec">60 mm full-color figurine (resin or multi-color PLA) mounted on a base with a laser-engraved metal name plaque · ready in 14 business days</span></li>
+        <li id="at-k01">
+          <span class="name">Full-color 3D printed keychain</span><span class="price">US$18.00</span>
+          <span class="spec">Your name, logo or simple artwork in full color · about 50 mm · full-color resin or multi-color PLA, with metal key ring · ready in 5–7 business days after proof approval</span>
+          <span class="code">Item code AT-K01</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Full-color+3D+printed+keychain&amp;item_number=AT-K01&amp;amount=18.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-f01">
+          <span class="name">Mini figurine, full color</span><span class="price">US$55.00</span>
+          <span class="spec">Person, pet or character from your photos or 3D file · 60 mm tall · full-color resin or multi-color PLA on a small base · ready in 10–14 business days after proof approval</span>
+          <span class="code">Item code AT-F01</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Mini+figurine,+full+color&amp;item_number=AT-F01&amp;amount=55.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-f02">
+          <span class="name">Display figurine, full color</span><span class="price">US$95.00</span>
+          <span class="spec">Person, pet or character from your photos or 3D file · 100 mm tall · full-color resin or multi-color PLA on a base · ready in 10–14 business days after proof approval</span>
+          <span class="code">Item code AT-F02</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Display+figurine,+full+color&amp;item_number=AT-F02&amp;amount=95.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-o01">
+          <span class="name">Desk ornament, full color</span><span class="price">US$65.00</span>
+          <span class="spec">Custom name block, emblem or small sculpture for a desk or shelf · up to 120 mm · full-color resin or multi-color PLA · ready in 7–10 business days after proof approval</span>
+          <span class="code">Item code AT-O01</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Desk+ornament,+full+color&amp;item_number=AT-O01&amp;amount=65.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-l01">
+          <span class="name">Laser-engraved name tag</span><span class="price">US$15.00</span>
+          <span class="spec">Name or text, up to 4 lines, one side · 50 × 28 mm stainless steel tag with ring or chain · ready in 3–5 business days after proof approval</span>
+          <span class="code">Item code AT-L01</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Laser-engraved+name+tag&amp;item_number=AT-L01&amp;amount=15.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-l02">
+          <span class="name">Laser photo engraving plate</span><span class="price">US$45.00</span>
+          <span class="spec">Your photo micro-engraved in fine detail · 100 × 150 mm black anodised aluminium with desk stand · ready in 5–7 business days after proof approval</span>
+          <span class="code">Item code AT-L02</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Laser+photo+engraving+plate&amp;item_number=AT-L02&amp;amount=45.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-g01">
+          <span class="name">Gift set: keychain + engraved tag</span><span class="price">US$29.00</span>
+          <span class="spec">One full-color 3D printed keychain (resin or multi-color PLA) and one laser-engraved stainless steel tag, gift boxed · ready in 7 business days after proof approval</span>
+          <span class="code">Item code AT-G01</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Gift+set:+keychain+%2B+engraved+tag&amp;item_number=AT-G01&amp;amount=29.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
+        <li id="at-g02">
+          <span class="name">Keepsake combo: figurine + engraved plaque</span><span class="price">US$85.00</span>
+          <span class="spec">60 mm full-color figurine (resin or multi-color PLA) mounted on a base with a laser-engraved metal name plaque · ready in 14 business days after proof approval</span>
+          <span class="code">Item code AT-G02</span>
+          <div class="buy-row">
+            <a class="btn-paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=zouting1973@gmail.com&amp;item_name=Keepsake+combo:+figurine+%2B+engraved+plaque&amp;item_number=AT-G02&amp;amount=85.00&amp;currency_code=USD&amp;quantity=1&amp;no_shipping=1&amp;charset=utf-8&amp;lc=US&amp;return=https://zouting1973-sg.github.io/atelier-studio/thanks.html&amp;cancel_return=https://zouting1973-sg.github.io/atelier-studio/%23products" target="_blank" rel="noopener">Buy Now with PayPal</a>
+          </div>
+        </li>
       </ul>
-      <p class="note">Either full-color resin or multi-color PLA may be used, chosen for the best result for each design. Larger sizes, quantities of 10 or more, and decorations for homes or public spaces are quoted individually by email.</p>
+      <p class="note">Either full-color resin or multi-color PLA may be used, chosen for the best result for each design. Larger sizes, quantities of 10 or more, and decorations for homes or public spaces are quoted individually by email. Each yellow “Buy Now with PayPal” button opens PayPal’s secure checkout for that item, in USD, paid to Ting Zou (zouting1973@gmail.com).</p>
     </section>
 
-    <section id="order" aria-labelledby="order-title">
-      <h2 id="order-title">Order &amp; payment</h2>
-      <h3>How to order</h3>
+    <section id="how-to-buy" aria-labelledby="howto-title">
+      <h2 id="howto-title">How to buy</h2>
+      <p>Four steps. Product payment is handled by PayPal Buy Now.</p>
       <ol>
-        <li>Email <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a> with the item name, quantity, your text or photos, and your shipping country.</li>
-        <li>You receive a written quote with the item price, shipping cost and lead time.</li>
-        <li>Pay the PayPal invoice in USD. Production starts after payment.</li>
-        <li>You approve a digital proof, then the piece is made and shipped with tracking.</li>
+        <li><strong>Choose an item.</strong> Read the description, lead time and USD product price above.</li>
+        <li><strong>Click “Buy Now with PayPal”.</strong> PayPal’s checkout page opens with the item name, item code and price filled in.</li>
+        <li><strong>Pay on PayPal.</strong> Log in to PayPal or pay with a card through PayPal, then confirm. PayPal emails you a receipt right away.</li>
+        <li><strong>Email your details.</strong> Write to <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a> with your PayPal transaction ID, the text/photos for the piece, and your shipping country. We send a digital proof and a shipping quote (PayPal or invoice). After you approve the proof and pay shipping, the piece is made and shipped with tracking.</li>
       </ol>
       <h3>Payment</h3>
-      <p><strong>PayPal:</strong> after you confirm the quote, a PayPal invoice in USD is sent to your email. You can pay with your PayPal balance or a card through PayPal. PayPal buyer protection applies.</p>
-      <h3>Shipping</h3>
-      <p>Ships internationally by tracked post or courier. Shipping cost depends on destination and parcel size and is quoted with each order before payment. Typical transit is 7–20 business days after dispatch. Import duties or taxes, if any, are paid by the buyer.</p>
+      <p><strong>PayPal only.</strong> Use the yellow Buy Now buttons for the listed product price in USD. You can pay with your PayPal balance or a debit/credit card through PayPal. PayPal buyer protection applies. Shipping is quoted and paid separately after product payment (not a tip or donation).</p>
+    </section>
+
+    <section id="delivery" aria-labelledby="delivery-title">
+      <h2 id="delivery-title">Delivery / shipping</h2>
+      <p>Ships internationally by tracked post or courier. Shipping cost depends on destination and parcel size and is quoted by email after product payment, before the piece ships. Typical transit is 7–20 business days after dispatch. Import duties or taxes, if any, are paid by the buyer.</p>
       <h3>Lead time</h3>
-      <p>Lead times above start after payment and proof approval. Bulk or large pieces are scheduled at quote time.</p>
-      <h3>Refunds &amp; returns</h3>
-      <p>Pieces are personalised and made to order, so they cannot be returned for change of mind once the proof is approved. You get a full refund if you cancel before approving the proof. If a piece arrives damaged, defective or different from the approved proof, email a photo within 14 days of delivery and it will be remade or refunded in full. Refunds are paid back through the original payment method. See the <a href="terms.html">Terms of sale</a>.</p>
+      <p>Lead times above start after product payment, proof approval, and shipping confirmation. Bulk or large pieces are scheduled at quote time.</p>
+    </section>
+
+    <section id="refunds" aria-labelledby="refunds-title">
+      <h2 id="refunds-title">Refunds &amp; returns</h2>
+      <p>Pieces are personalised and made to order, so they cannot be returned for change of mind once the proof is approved. You get a full refund of the product payment if you cancel before approving the proof. If a piece arrives damaged, defective or different from the approved proof, email a photo within 14 days of delivery and it will be remade or refunded in full. Refunds are paid back through the original payment method. See the <a href="terms.html">Terms of sale</a>.</p>
     </section>
 
     <section id="reach" aria-labelledby="reach-title">
       <h2 id="reach-title">Contact</h2>
-      <p>For orders, quotes and questions, write by email. Replies within 2 business days.</p>
+      <p>For orders, custom text/photos, shipping quotes and questions, write by email. Replies within 2 business days.</p>
+      <p><strong>Seller:</strong> Ting Zou (Tim Zou) · 邹挺 · personal atelier</p>
       <a class="mail" href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a>
+    </section>
+
+    <section id="zh" class="zh" aria-labelledby="zh-title" lang="zh-Hans">
+      <h2 id="zh-title">中文说明</h2>
+      <p>卖家：邹挺（Tim Zou）个人工作室 · 全彩 3D 打印与激光微雕刻定制实物商品 · 标价为美元（USD）商品价 · 通过黄色 “Buy Now with PayPal” 按钮付款至 zouting1973@gmail.com · <strong>非赞助、非打赏</strong>。</p>
+      <ul>
+        <li>AT-K01 全彩 3D 钥匙扣 — <strong>US$18.00</strong></li>
+        <li>AT-F01 迷你全彩人偶（约 60 mm）— <strong>US$55.00</strong></li>
+        <li>AT-F02 展示全彩人偶（约 100 mm）— <strong>US$95.00</strong></li>
+        <li>AT-O01 全彩桌面摆件 — <strong>US$65.00</strong></li>
+        <li>AT-L01 激光雕刻姓名牌 — <strong>US$15.00</strong></li>
+        <li>AT-L02 激光照片雕刻铝板 — <strong>US$45.00</strong></li>
+        <li>AT-G01 礼盒套装（钥匙扣 + 钢牌）— <strong>US$29.00</strong></li>
+        <li>AT-G02 纪念组合（人偶 + 铭牌）— <strong>US$85.00</strong></li>
+      </ul>
+      <p><strong>购买流程：</strong>打开本站 → 选择商品 → 点击黄色 “Buy Now with PayPal” → 在 PayPal 安全收银台以美元支付商品价 → 邮件发送定制内容与收货国家 → 我们回复数码样稿与运费报价 → 确认样稿并支付运费后制作发货（含追踪）。运费另计，不包含在上方商品价内。</p>
     </section>
 
     <footer>
       <p>Personal atelier of Ting Zou · <a href="mailto:zouting1973@gmail.com">zouting1973@gmail.com</a></p>
-      <p><a href="terms.html">Terms of sale</a> · <a href="privacy.html">Privacy</a></p>
+      <p>All prices in US dollars (USD). Payments processed securely by PayPal.</p>
+      <p><a href="terms.html">Terms of sale</a> · <a href="privacy.html">Privacy</a> · <a href="thanks.html">Thank you</a></p>
     </footer>
   </article>
 </body>

@@ -1,15 +1,9 @@
-# Atelier
+# Atelier Studio
 
-Personal studio site for Tim Zou: custom artworks and home and public decorations made by color 3D printing and laser micro-engraving.
+Personal atelier of Ting (Tim) Zou — custom full-color 3D print and laser micro-engraving.
 
-Published with GitHub Pages from the `main` branch, repository root:
+- Live: https://zouting1973-sg.github.io/atelier-studio/
+- Seller email / PayPal: zouting1973@gmail.com
+- Payment: PayPal Buy Now (USD). Shipping quoted separately after product payment.
 
-https://zouting1973-sg.github.io/atelier-studio/
-
-There is no custom domain.
-
-Pages:
-
-- `index.html` — about, products & USD prices, order & payment (PayPal invoice in USD), shipping, refunds, contact
-- `terms.html` — terms of sale
-- `privacy.html` — privacy notice
+Static site on GitHub Pages (`main` branch, root).
